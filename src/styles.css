@@ -1,0 +1,19 @@
+*{box-sizing:border-box;margin:0}body{font-family:'Inter',system-ui,-apple-system,sans-serif;color:#1e293b;background:#f1f5f9;-webkit-text-size-adjust:100%;font-size:14px}
+input,select,button{font-family:inherit;font-size:16px}input:focus,select:focus{outline:2px solid #1a2e6b;outline-offset:-1px}button{cursor:pointer;-webkit-tap-highlight-color:transparent}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:20px;font-size:13px;cursor:pointer;border:2px solid #cbd5e1;background:#fff;color:#475569;font-weight:600;min-height:40px}
+.pill.active{background:#1a2e6b;color:#fff;border-color:#1a2e6b;font-weight:700;box-shadow:0 2px 8px rgba(26,46,107,0.3)}.pill .cnt{background:rgba(0,0,0,.06);border-radius:10px;padding:2px 7px;font-size:11px}.pill.active .cnt{background:rgba(255,255,255,.2)}
+.card-opt{flex:1;min-width:120px;border:2px dashed;border-radius:12px;padding:18px 10px;text-align:center;cursor:pointer;transition:all .15s}
+.dd-item{display:flex;align-items:center;gap:10px;padding:9px 14px;cursor:pointer;border-bottom:1px solid #f1f5f9}.dd-item:hover{background:#eff6ff}
+.tag{background:#dbeafe;color:#1a2e6b;padding:2px 8px;border-radius:6px;font-size:11px;font-weight:700;white-space:nowrap}
+.tbl{width:100%;border-collapse:separate;border-spacing:0;font-size:12px}.tbl thead th{position:sticky;top:0;z-index:4}.tbl th{padding:8px 10px;text-align:right;border-bottom:2px solid #cbd5e1;font-size:11px;color:#475569;font-weight:700;white-space:nowrap;background:#f8fafc}
+.tbl td{padding:6px 10px;text-align:right;border-bottom:1px solid #f1f5f9}.tbl tr:nth-child(even){background:#f8fafc}
+.badge{display:inline-block;padding:2px 7px;border-radius:9px;font-size:9px;font-weight:700;white-space:nowrap}.inp-sm{border:1px solid #e2e8f0;border-radius:4px;padding:2px 5px;font-size:11px}
+.btn-primary{background:#1a2e6b;color:#fff;border:none;border-radius:10px;padding:10px 18px;font-size:14px;font-weight:700;min-height:44px}.btn-sm{padding:7px 14px;font-size:13px;border-radius:8px}
+.sec-btn{padding:10px 14px;border:none;border-radius:10px;font-size:13px;font-weight:600;cursor:pointer;flex:1;text-align:center;min-height:44px}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(max-width:600px){
+  input,select{font-size:16px!important}
+  .tbl{font-size:10px}.tbl th,.tbl td{padding:4px 5px}
+  .badge{font-size:9px;padding:1px 5px}
+  h1{font-size:20px!important}h2{font-size:15px!important}
+}
